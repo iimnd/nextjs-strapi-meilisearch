@@ -11,7 +11,7 @@ function Record(props) {
   const [initialValue, setInitialValue] = useState("");
   
   const client = new MeiliSearch({
-    host: "http://localhost:7700/",
+    host: "http://meilisearch:7700/",
     apiKey: "",
   });
   
